@@ -9,12 +9,13 @@ class test
     public static function html(): string
     {
         $out = '';
-        $out .= "<body class=\"bgWash\">";
-        $out .= "<div id=\"pageContents\">";
+        // $out .= "<body class=\"bgWash\">";
+        // $out .= "<div id=\"pageContents\">";
         $out .= "<p>HIII</p>";
-        $out .= "<div style=\"overflow: scroll; height: 100%;\">";
-        $out .= "</div>";
-        $out .= "</body>";
+        $out .= "<h1>TEST</h1>";
+        // $out .= "<div style=\"overflow: scroll; height: 100%;\">";
+        // $out .= "</div>";
+        // $out .= "</body>";
 
         return $out;
     }
