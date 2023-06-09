@@ -7,11 +7,9 @@ namespace src\php;
 class build
 {
 
-
     public static function index(): string
     {
-
-        return "<p>HIII this is test php p tag</p>";
+        return "<h1>HI this is test php tag</h1>";
     }
 
 }

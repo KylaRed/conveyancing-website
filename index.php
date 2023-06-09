@@ -1,41 +1,8 @@
 <?php
+// To run, cd to this folder and run `php -S localhost:8000`.
 
 declare(strict_types=1);
+// require 'src/php/build.inc';
+require_once '/home/kyla/mnt/ebs1/git/conveyancing-website/autoloadRegister.inc';
 
-//echo phpInfo(); exit; // Allow exit for debugging.
 echo \src\php\build::index();
-
-// echo "<a href=\"/\test\test::html()/\">/test/</a>";
-
-
-/*
-namespace src;
-
-// Import the TypeScript and SCSS files
-// require_once 'typescript.ts';
-// require_once 'scss.scss';
-
-class php
-{
-    public static function test(): string
-    {
-        echo "typescript.test.render_page();";
-        return '';
-    }
-}*/
-
-//
-// class MyClass {
-//
-//     public function __construct() {
-//         // Do something when the class is instantiated
-//     }
-//
-//     public function myMethod() {
-//         // Do something when the method is called
-//     }
-//
-// }
-//
-?>
-
